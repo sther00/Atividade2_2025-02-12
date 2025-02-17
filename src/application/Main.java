@@ -6,9 +6,9 @@ public class Main {
     public static void main(String[] args) {
         ShoppingCart cart = new ShoppingCart(456);
 
-        Product tv = new TV("Samsung", 1500.00);
-        Product fridge = new Refrigerator("Brastemp", 2500.00);
-        Product stove = new Stove("Electrolux", 1200.00);
+        Product tv = new TV("Samsung", 1500.00, 55);
+        Product fridge = new Refrigerator("Brastemp", 2500.00, 350);
+        Product stove = new Stove("Electrolux", 1200.00, 4);
 
         cart.addProduct(tv);
         cart.addProduct(fridge);

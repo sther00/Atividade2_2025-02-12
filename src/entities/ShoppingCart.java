@@ -31,6 +31,10 @@ public class ShoppingCart {
         return customerID;
     }
 
+    public int getItemCount() {
+        return productList.size();
+    }
+
     public double getTotalPrice() {
         double total = 0;
         for (Product product : productList) {
